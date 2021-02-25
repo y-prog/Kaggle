@@ -11,9 +11,9 @@ import xlrd
 
 
 
-train_data=pd.read_csv(r'C:\Users\digiovanniyani\Desktop\excel_files\train.csv')
+train_data=pd.read_csv(r'train.csv')
 
-test_data=pd.read_csv(r'C:\Users\digiovanniyani\Desktop\excel_files\test.csv')
+test_data=pd.read_csv(r'test.csv')
 
 
 print('==================================================================')
