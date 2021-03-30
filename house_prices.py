@@ -13,8 +13,8 @@ import xgboost as xgb
 
 
 
-train_data=pd.read_csv(r'C:\Users\digiovanniyani\Desktop\excel_files\train.csv')
-test_data=pd.read_csv(r'C:\Users\digiovanniyani\Desktop\excel_files\test.csv')
+train_data=pd.read_csv(r'train.csv')
+test_data=pd.read_csv(r'test.csv')
 print(type(train_data.iloc[7][3]),type(train_data.iloc[7][6]),'afdsadsafafafdsadfadf')
 print((train_data.iloc[7][3]),(train_data.iloc[7][6]),'afdsadsafafafdsadfadf')
 
